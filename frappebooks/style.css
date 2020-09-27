@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+.link a{
+display: inline-block;
+color:gray;
+font-size: 1rem;
+position: relative;
+left:-10%;
+}
+
+.nav{
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+}
+
+  .c1{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .container1{
+      width:50%;
+      height:auto;
+      position: relative;
+      top:20%;
+      left:10%;
+  }
+
+  .card1{
+      width:300px;
+      height:500px;
+      position: relative;
+      top:-11%;
+  }
+
+  .card1 img{
+    width:100%;
+    height:100%;
+}
+
+.card1 .img2{
+    position: relative;
+    top:-120%;
+    left:-20%;
+}
+
+.card1 .img3{
+    position: relative;
+    width:300px;
+    height:200px;
+    top:-140%;
+    left:-40%;
+
+}
+
+.image{
+    display: block;
+    width:100%;
+    height:500px;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    padding:100px;
+}
+
+.c3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    background-color: #ddd;
+}
+
+.c3 .card{
+    position: relative;
+    left: 30%;
+    margin: 30px;
+}
+
+.c4 h1{
+    margin-top: 80px;
+    margin-left:10%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.c4 p{
+    margin-top: 10px;
+    margin-left:10%;
+    color:gray;
+}
+
+.c5{
+    width:100%;
+    height: auto;
+    background-color: #ddd;
+    padding-bottom:10%;
+}
+
+
+
+.c4 .table{
+    margin-top: 80px;
+    margin-left:10%;
+    margin-bottom: 80px;
+}
+.c5 h1{
+    padding-top: 100px;
+    padding-left:10%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.c5 p{
+    padding-top: 10px;
+    padding-left:10%;
+    color:gray;
+}
+
+.c5 p {
+    text-align: left;
+}
+
+.c5 img{
+    width:500px;
+    margin-left:10%;
+    border-radius: 15px;
+}
+
+.c6{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+
+.c6  .card{
+    padding: 10px;
+    margin:30px;
+}
+
+.c7{
+    width:100%;
+    height:auto;
+}
+
+.c7 .tab{
+    position: relative;
+    width:80%;
+    height:auto;
+    background-color: rgb(226, 244, 250);
+    left:10%;
+    text-align: center;
+    padding:5%;
+    margin:5%;
+    border-radius: 5px;
+}
+
+.c7 .p1{
+ font-size: 0.1rem;
+ padding: 10px;
+}
+
+.c8{
+    width:100%;
+    height:auto;
+    padding:10%;
+}
+
+.c8 .container a {
+    padding:-10%;
+}
+
+.c8 nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding:10px;
+    color:gray;
+    font-size: 15px;
+}
+
+  @media (max-width:786px){
+    .link a{
+        display:block;
+        position: relative;
+        left:70vw;
+        margin-top:-55%;
+        padding:40px;
+    }
+
+    .container2{
+        display: none;
+    }
+
+    .c3{
+        display: block;
+    }
+
+    .c3 .card{
+        position: relative;
+        left: 0%;
+    }
+
+    .c6{
+        display: block;
+    }
+
+  }
